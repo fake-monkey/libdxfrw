@@ -5,7 +5,7 @@ project(DXFRW VERSION 1.0.1)
 
 # set compiler warnings
 if (MSVC)
-    add_compile_options(/W4 /WX)
+    add_compile_options(/W4 /WX-)
 else()
     add_compile_options(-Wall -Wextra -pedantic -Werror)
 endif()
